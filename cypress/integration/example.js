@@ -7,5 +7,6 @@ describe('GET API for rest', ()=> {
         cy.get('#normal_login_password').type('123123')
         cy.contains('Log in').click()
         cy.contains('Services').click()
+        cy.contains('Services').click()
     });
 })
